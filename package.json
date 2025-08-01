@@ -1,0 +1,39 @@
+{
+  "name": "aws-serverless-app",
+  "version": "1.0.0",
+  "description": "A full-fledged serverless e-commerce application built using AWS services including Lambda, API Gateway, DynamoDB, SQS, SNS, and Step Functions.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "deploy": "cdk deploy",
+    "synth": "cdk synth"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachjonesnoel/aws-serverless-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachjonesnoel/aws-serverless-app/issues"
+  },
+  "homepage": "https://github.com/zachjonesnoel/aws-serverless-app#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "aws-cdk": "^2.118.0",
+    "aws-cdk-lib": "^2.118.0",
+    "constructs": "^10.3.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.490.0",
+    "@aws-sdk/lib-dynamodb": "^3.490.0",
+    "@aws-sdk/client-sfn": "^3.490.0",
+    "aws-lambda": "^1.0.7",
+    "@types/aws-lambda": "^8.10.130"
+  }
+}
