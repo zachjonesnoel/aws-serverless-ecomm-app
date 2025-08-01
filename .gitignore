@@ -8,7 +8,6 @@ cdk.out
 cdk-integ.out
 
 # TypeScript
-*.js
 *.d.ts
 *.js.map
 .tsbuildinfo
